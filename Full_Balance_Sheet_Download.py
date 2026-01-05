@@ -13,7 +13,7 @@ MAX_WORKERS = 5
 # ALL YOUR TICKERS
 TICKERS = {
     "TECH": [
-        # --- Your Existing List ---
+        
         "NVDA", "AAPL", "MSFT", "AVGO", "ORCL", "PLTR", "AMD", "MU", "CSCO", "IBM",
         "CRM", "APP", "LRCX", "AMAT", "INTU", "QCOM", "INTC", "ANET", "APH", "ACN",
         "KLAC", "NOW", "TXN", "ADBE", "ADI", "PANW", "CRWD", "SNPS", "CDNS", "DELL",
@@ -21,7 +21,7 @@ TICKERS = {
         "DDOG", "MPWR", "FICO", "CTSH", "SNDK", "KEYS", "MCHP", "HPE", "TER", "FSLR",
         "JBL", "TDY", "VRSN", "ON", "NTAP", "PTC", "HPQ", "TYL", "TRMB", "IT",
         "CDW", "SMCI", "Q", "GDDY", "GEN", "FFIV", "AKAM", "ZBRA", "EPAM", "SWKS",
-        # --- 50+ New Large-Cap Additions ---
+        
         "TSM", "ASML", "SAP", "SONY", "SHOP", "SNOW", "ARM", "TEAM", "MDB", "WDAY", 
         "ZS", "PANW", "OKTA", "SE", "NET", "WIT", "INFY", "STM", "GFS", "ON", 
         "CDNS", "SNPS", "ANSS", "DATADOG", "AKAM", "LOGI", "JNPR", "FLEX", "COGN", "STNE",
@@ -30,14 +30,14 @@ TICKERS = {
         "SSNC", "AZPN", "PTC", "TYL", "GWRE"
     ],
     "HEALTHCARE": [
-        # --- Your Existing List ---
+        
         "LLY", "JNJ", "ABBV", "UNH", "MRK", "TMO", "ABT", "ISRG", "AMGN", "DHR",
         "GILD", "PFE", "BSX", "SYK", "MDT", "VRTX", "BMY", "HCA", "MCK", "CVS",
         "REGN", "ELV", "CI", "COR", "BDX", "ZTS", "IDXX", "EW", "CAH", "A",
         "IQV", "GEHC", "RMD", "HUM", "MTD", "DXCM", "BIIB", "STE", "WAT", "LH",
         "PODD", "CNC", "WST", "DGX", "INCY", "ZBH", "HOLX", "COO", "VTRS", "UHS",
         "SOLV", "MRNA", "ALGN", "RVTY", "CRL", "BAX", "TECH", "MOH", "HSIC", "DVA",
-        # --- 50+ New Large-Cap Additions ---
+        
         "NVO", "AZN", "NVS", "GSK", "SNY", "HAE", "ALNY", "BMRN", "VRTX", "SGEN", 
         "TAK", "ZBH", "MOH", "VTRS", "HAE", "DVA", "WST", "STT", "PRGO", "XRAY",
         "ELV", "CI", "MDT", "SYK", "BSX", "BDX", "ZTS", "IDXX", "EW", "RMD",
@@ -46,7 +46,7 @@ TICKERS = {
         "IONS", "UTHR", "EXEL", "TLY", "ONTF"
     ],
     "FINANCE": [
-        # --- Your Existing List ---
+       
         "JPM", "BAC", "WFC", "V", "USB", "TRV", "TROW", "TFC", "SYF", "STT",
         "SPGI", "SCHW", "RJF", "RF", "PYPL", "PRU", "PNC", "PGR", "PFG", "NTRS",
         "NDAQ", "MTB", "MSCI", "MS", "MMC", "MET", "MCO", "MA", "L", "KKR",
@@ -55,7 +55,7 @@ TICKERS = {
         "CME", "CINF", "CFG", "CBOE", "CB", "C", "BX", "BRO", "BRK.B", "BLK",
         "BK", "BEN", "AXP", "APO", "AON", "AMP", "ALL", "AJG", "AIZ", "AIG",
         "AFL", "ACGL", "XYZ", "WTW", "WRB",
-        # --- 50+ New Large-Cap Additions ---
+        
         "HSBC", "RY", "TD", "HDB", "SAN", "BBVA", "MUFG", "SMFG", "BMO", "BNS", 
         "CM", "UBS", "DB", "ING", "NWG", "BCS", "LYG", "PUK", "MFG", "ITUB",
         "BBD", "NU", "SOFI", "AFRM", "ALLY", "PINS", "BKI", "DFS", "SYF", "FHN",
@@ -64,13 +64,13 @@ TICKERS = {
         "AIG", "ALL", "PGR", "TRV", "CB", "MMC", "AON", "AJG", "BRO"
     ],
     "CONSUMER_DISC": [
-        # --- Your Existing List ---
+     
         "AMZN", "TSLA", "HD", "MCD", "BKNG", "TJX", "LOW", "DASH", "SBUX", "NKE",
         "MAR", "ABNB", "ORLY", "GM", "RCL", "HLT", "ROST", "AZO", "F", "CMG",
         "LVS", "DHI", "YUM", "EBAY", "GRMN", "CCL", "EXPE", "TSCO", "ULTA", "TPR",
         "LEN", "LULU", "PHM", "WSM", "DRI", "RL", "NVR", "GPC", "APTV", "DECK",
         "DPZ", "BBY", "WYNN", "HAS", "NCLH", "MGM", "POOL", "LKQ", "MHK",
-        # --- 50+ New Large-Cap Additions ---
+        
         "TM", "HMC", "LVMUY", "NKE", "BABA", "PDD", "JD", "MELI", "CPNG", "LULU", 
         "EBAY", "DASH", "ETSY", "RIVN", "LCID", "F", "GM", "STLA", "VWAGY", "BMWYY",
         "HMC", "TM", "BYDDY", "NIO", "LI", "XPEV", "SONY", "NTES", "CHWY", "DKNG",
@@ -79,11 +79,11 @@ TICKERS = {
         "RL", "WSM", "BBY", "ULTA", "ORLY", "AZO", "GPC", "LKQ", "TSCO", "ROST"
     ],
     "COMMS": [
-        # --- Your Existing List ---
+      
         "GOOG", "GOOGL", "META", "NFLX", "TMUS", "DIS", "T", "VZ", "CMCSA", "WBD",
         "EA", "TTWO", "TKO", "LYV", "FOXA", "FOX", "CHTR", "TTD", "NWS", "NWSA", 
         "PSKY", "MTCH",
-        # --- 50+ New Large-Cap Additions ---
+       
         "SPOT", "PARA", "ROKU", "SNAP", "PINS", "BIDU", "NTES", "TCEHY", "SEA", "WPP", 
         "IPG", "OMC", "DISH", "LUMN", "ZME", "SIRI", "AMX", "LBTYA", "VOD", "ORAN",
         "TEF", "BT", "SKM", "KT", "PHI", "TU", "BCE", "RCI", "LBRDA", "LBRDK",
@@ -91,7 +91,7 @@ TICKERS = {
         "SINA", "SOHU", "YNDX", "GOGO", "TIGO", "VEON", "MTL", "MBT", "TKC", "TLC"
     ],
     "INDUSTRIALS": [
-        # --- Your Existing List ---
+       
         "GE", "CAT", "RTX", "GEV", "UBER", "BA", "UNP", "DE", "HON", "ETN",
         "LMT", "PH", "ADP", "GD", "WM", "TT", "MMM", "UPS", "HWM", "NOC",
         "CTAS", "EMR", "JCI", "TDG", "ITW", "CMI", "FDX", "CSX", "RSG", "NSC",
@@ -100,7 +100,7 @@ TICKERS = {
         "ROL", "EME", "DOV", "EFX", "BR", "VLTO", "HUBB", "LDOS", "LUV", "EXPD",
         "CHRW", "JBHT", "SNA", "FTV", "LII", "PNR", "J", "TXT", "ALLE", "NDSN",
         "HII", "IEX", "MAS", "SWK", "BLDR", "DAY", "AOS", "PAYC", "GNRC",
-        # --- 50+ New Large-Cap Additions ---
+       
         "SI", "ABB", "FERG", "RYAAY", "EXPD", "ODFL", "KNX", "JBHT", "CHRW", "MATX", 
         "ZTO", "XPO", "GXO", "HUBG", "ARCB", "LSTR", "SAIA", "UHAL", "CAR", "HTZ",
         "BLDR", "AOS", "MAS", "FBHS", "ALLE", "SNA", "SWK", "PNR", "IEX", "NDSN",
@@ -108,12 +108,12 @@ TICKERS = {
         "PAYC", "PCTY", "DAY", "MCO", "SPGI", "INFO", "TRI", "RELX", "DNB", "LDOS"
     ],
     "REAL_ESTATE": [
-        # --- Your Existing List ---
+        
         "WELL", "PLD", "AMT", "EQIX", "SPG", "DLR", "O", "CBRE", "PSA", "CCI",
         "VTR", "VICI", "CSGP", "EXR", "AVB", "IRM", "EQR", "SBAC", "WY", "INVH",
         "ESS", "MAA", "KIM", "REG", "HST", "UDR", "CPT", "DOC", "BXP", "FRT",
         "ARE",
-        # --- 50+ New Large-Cap Additions ---
+        
         "RKT", "UNIT", "MPW", "BXP", "VRE", "NLY", "AGNC", "STWD", "BXMT", "ABR", 
         "RITM", "LADR", "HASI", "AMT", "CCI", "SBAC", "PLD", "DLR", "EQIX", "IRM",
         "PSA", "EXR", "CUBE", "LSI", "WELL", "VTR", "PEAK", "DOC", "ARE", "O",
@@ -121,7 +121,7 @@ TICKERS = {
         "ESS", "MAA", "UDR", "CPT", "INVH", "AMH", "SUI", "ELS", "HST", "RHP",
         "VICI", "GLPI", "MGP", "WY", "PCH", "RYN"
     ],
-    # --- New Essential Sectors Added (50+ Tickers Each) ---
+    
     "ENERGY": [
         "XOM", "CVX", "SHEL", "TTE", "COP", "BP", "EQNR", "PBR", "EOG", "SLB",
         "ENB", "TRP", "EPD", "KMI", "WMB", "MPC", "PSX", "VLO", "HES", "OXY",
