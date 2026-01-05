@@ -10,10 +10,10 @@ API_KEY = "YOUR_API_KEY_HERE"
 BASE_URL = "https://financialmodelingprep.com/stable"
 MAX_WORKERS = 16  
 
-# ALL TICKERS - YOUR COMPLETE LIST (NOTHING REMOVED)
+
 TICKERS = {
     "TECH": [
-        # Original S&P 500
+       
         "NVDA", "AAPL", "MSFT", "AVGO", "ORCL", "PLTR", "AMD", "MU", "CSCO", "IBM",
         "CRM", "APP", "LRCX", "AMAT", "INTU", "QCOM", "INTC", "ANET", "APH", "ACN",
         "KLAC", "NOW", "TXN", "ADBE", "ADI", "PANW", "CRWD", "SNPS", "CDNS", "DELL",
@@ -21,7 +21,7 @@ TICKERS = {
         "DDOG", "MPWR", "FICO", "CTSH", "SNDK", "KEYS", "MCHP", "HPE", "TER", "FSLR",
         "JBL", "TDY", "VRSN", "ON", "NTAP", "PTC", "HPQ", "TYL", "TRMB", "IT",
         "CDW", "SMCI", "Q", "GDDY", "GEN", "FFIV", "AKAM", "ZBRA", "EPAM", "SWKS",
-        # Your additions (50+)
+     
         "TSM", "ASML", "SAP", "SONY", "SHOP", "SNOW", "ARM", "TEAM", "MDB", "WDAY", 
         "ZS", "OKTA", "SE", "NET", "WIT", "INFY", "STM", "GFS", "ANSS", "DATADOG",
         "LOGI", "JNPR", "FLEX", "COGN", "STNE", "TOST", "AFRM", "PATH", "BSY", "HUBB",
@@ -29,19 +29,19 @@ TICKERS = {
         "ESTC", "DT", "SSNC", "AZPN", "GWRE"
     ],
     "HEALTHCARE": [
-        # Original S&P 500
+     
         "LLY", "JNJ", "ABBV", "UNH", "MRK", "TMO", "ABT", "ISRG", "AMGN", "DHR",
         "GILD", "PFE", "BSX", "SYK", "MDT", "VRTX", "BMY", "HCA", "MCK", "CVS",
         "REGN", "ELV", "CI", "COR", "BDX", "ZTS", "IDXX", "EW", "CAH", "A",
         "IQV", "GEHC", "RMD", "HUM", "MTD", "DXCM", "BIIB", "STE", "WAT", "LH",
         "PODD", "CNC", "WST", "DGX", "INCY", "ZBH", "HOLX", "COO", "VTRS", "UHS",
         "SOLV", "MRNA", "ALGN", "RVTY", "CRL", "BAX", "TECH", "MOH", "HSIC", "DVA",
-        # Your additions (50+)
+  
         "NVO", "AZN", "NVS", "GSK", "SNY", "HAE", "ALNY", "BMRN", "SGEN", "TAK", 
         "PRGO", "XRAY", "STT", "IONS", "UTHR", "EXEL", "TLY", "ONTF"
     ],
     "FINANCE": [
-        # Original S&P 500
+      
         "JPM", "BAC", "WFC", "V", "USB", "TRV", "TROW", "TFC", "SYF", "STT",
         "SPGI", "SCHW", "RJF", "RF", "PYPL", "PRU", "PNC", "PGR", "PFG", "NTRS",
         "NDAQ", "MTB", "MSCI", "MS", "MMC", "MET", "MCO", "MA", "L", "KKR",
@@ -50,31 +50,31 @@ TICKERS = {
         "CME", "CINF", "CFG", "CBOE", "CB", "C", "BX", "BRO", "BRK.B", "BLK",
         "BK", "BEN", "AXP", "APO", "AON", "AMP", "ALL", "AJG", "AIZ", "AIG",
         "AFL", "ACGL", "XYZ", "WTW", "WRB",
-        # Your additions (50+)
+      
         "HSBC", "RY", "TD", "HDB", "SAN", "BBVA", "MUFG", "SMFG", "BMO", "BNS", 
         "CM", "UBS", "DB", "ING", "NWG", "BCS", "LYG", "PUK", "MFG", "ITUB",
         "BBD", "NU", "SOFI", "AFRM", "ALLY", "PINS", "BKI", "DFS", "FHN", "CMA",
         "ZION"
     ],
     "CONSUMER_DISC": [
-        # Original S&P 500
+     
         "AMZN", "TSLA", "HD", "MCD", "BKNG", "TJX", "LOW", "DASH", "SBUX", "NKE",
         "MAR", "ABNB", "ORLY", "GM", "RCL", "HLT", "ROST", "AZO", "F", "CMG",
         "LVS", "DHI", "YUM", "EBAY", "GRMN", "CCL", "EXPE", "TSCO", "ULTA", "TPR",
         "LEN", "LULU", "PHM", "WSM", "DRI", "RL", "NVR", "GPC", "APTV", "DECK",
         "DPZ", "BBY", "WYNN", "HAS", "NCLH", "MGM", "POOL", "LKQ", "MHK",
-        # Your additions (50+)
+       
         "TM", "HMC", "LVMUY", "BABA", "PDD", "JD", "MELI", "CPNG", "ETSY", "RIVN",
         "LCID", "STLA", "VWAGY", "BMWYY", "BYDDY", "NIO", "LI", "XPEV", "NTES",
         "CHWY", "DKNG", "PENN", "CZR", "H", "WH", "ADS", "SKX", "CPRI", "PVH",
         "VFC"
     ],
     "COMMS": [
-        # Original S&P 500
+
         "GOOG", "GOOGL", "META", "NFLX", "TMUS", "DIS", "T", "VZ", "CMCSA", "WBD",
         "EA", "TTWO", "TKO", "LYV", "FOXA", "FOX", "CHTR", "TTD", "NWS", "OMC",
         "NWSA", "PSKY", "MTCH",
-        # Your additions (50+)
+  
         "SPOT", "PARA", "ROKU", "SNAP", "PINS", "BIDU", "NTES", "TCEHY", "SEA", "WPP", 
         "IPG", "DISH", "LUMN", "ZME", "SIRI", "AMX", "LBTYA", "VOD", "ORAN", "TEF",
         "BT", "SKM", "KT", "PHI", "TU", "BCE", "RCI", "LBRDA", "LBRDK", "VIAC",
@@ -82,7 +82,7 @@ TICKERS = {
         "SOHU", "YNDX", "GOGO", "TIGO", "VEON", "MTL", "MBT", "TKC", "TLC"
     ],
     "INDUSTRIALS": [
-        # Original S&P 500
+   
         "GE", "CAT", "RTX", "GEV", "UBER", "BA", "UNP", "DE", "HON", "ETN",
         "LMT", "PH", "ADP", "GD", "WM", "TT", "MMM", "UPS", "HWM", "NOC",
         "CTAS", "EMR", "JCI", "TDG", "ITW", "CMI", "FDX", "CSX", "RSG", "NSC",
@@ -91,18 +91,18 @@ TICKERS = {
         "ROL", "EME", "DOV", "EFX", "BR", "VLTO", "HUBB", "LDOS", "LUV", "EXPD",
         "CHRW", "JBHT", "SNA", "FTV", "LII", "PNR", "J", "TXT", "ALLE", "NDSN",
         "HII", "IEX", "MAS", "SWK", "BLDR", "DAY", "AOS", "PAYC", "GNRC",
-        # Your additions (50+)
+     
         "SI", "ABB", "FERG", "RYAAY", "KNX", "MATX", "ZTO", "XPO", "GXO", "HUBG",
         "ARCB", "LSTR", "SAIA", "UHAL", "CAR", "HTZ", "FBHS", "ITT", "PCTY", "INFO",
         "TRI", "RELX", "DNB"
     ],
     "REAL_ESTATE": [
-        # Original S&P 500
+      
         "WELL", "PLD", "AMT", "EQIX", "SPG", "DLR", "O", "CBRE", "PSA", "CCI",
         "VTR", "VICI", "CSGP", "EXR", "AVB", "IRM", "EQR", "SBAC", "WY", "INVH",
         "ESS", "MAA", "KIM", "REG", "HST", "UDR", "CPT", "DOC", "BXP", "FRT",
         "ARE",
-        # Your additions (50+)
+
         "RKT", "UNIT", "MPW", "VRE", "NLY", "AGNC", "STWD", "BXMT", "ABR", "RITM",
         "LADR", "HASI", "CUBE", "LSI", "PEAK", "TCO", "MAC", "SKT", "BRX", "AMH",
         "SUI", "ELS", "RHP", "GLPI", "MGP", "PCH", "RYN"
